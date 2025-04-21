@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>MindSpark 💭</title>
+  <link href="https://fonts.googleapis.com/css2?family=Quicksand:wght@400;500;700&display=swap" rel="stylesheet">
+  <style>
+    body {
+      margin: 0;
+      font-family: 'Quicksand', sans-serif;
+      background: linear-gradient(270deg, #7f5af0, #ff6ac1, #3c9ee7);
+      background-size: 600% 600%;
+      animation: gradient 10s ease infinite;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      min-height: 100vh;
+      color: #fff;
+      text-align: center;
+      padding: 2rem;
+    }
+
+    @keyframes gradient {
+      0% { background-position: 0% 50%; }
+      50% { background-position: 100% 50%; }
+      100% { background-position: 0% 50%; }
+    }
+
+    h1 {
+      font-size: 3.5rem;
+      margin-bottom: 0.5rem;
+      text-shadow: 2px 2px 5px rgba(0,0,0,0.3);
+    }
+
+    p.subtitle {
+      font-size: 1.3rem;
+      margin-bottom: 2rem;
+      font-weight: 400;
+    }
+
+    .card {
+      background: rgba(255, 255, 255, 0.15);
+      padding: 2rem;
+      border-radius: 25px;
+      backdrop-filter: blur(10px);
+      max-width: 800px;
+      border: 2px solid #ffffff;
+      box-shadow: 0 0 30px rgba(0, 0, 0, 0.1);
+    }
+
+    .quote {
+      font-size: 1.4rem;
+      font-weight: 500;
+      margin: 1.2rem 0;
+    }
+
+    footer {
+      margin-top: 3rem;
+      font-size: 0.95rem;
+      opacity: 0.75;
+    }
+  </style>
+</head>
+<body>
+
+  <h1>💭 MindSpark</h1>
+  <p class="subtitle">Acenda sua mente com frases poderosas</p>
+
+  <div class="card">
+    <div class="quote">“Acredite em você e tudo será possível.”</div>
+    <div class="quote">“Cada dia é uma nova chance para recomeçar.”</div>
+    <div class="quote">“O sucesso é a soma de pequenos esforços repetidos diariamente.”</div>
+    <div class="quote">“A mente é como um paraquedas: só funciona aberta.”</div>
+    <div class="quote">“Seja a mudança que você quer ver no mundo.”</div>
+    <div class="quote">“Grandes ideias começam com um pequeno passo.”</div>
+    <div class="quote">“Você é mais forte do que imagina.”</div>
+    <div class="quote">“Não importa o quão devagar você vá, desde que não pare.”</div>
+    <div class="quote">“A persistência realiza o impossível.”</div>
+    <div class="quote">“O único limite para o nosso sucesso de amanhã são as dúvidas de hoje.”</div>
+    <div class="quote">“Nunca é tarde demais para ser aquilo que você poderia ter sido.”</div>
+    <div class="quote">“Acredite: algo maravilhoso está prestes a acontecer.”</div>
+    <div class="quote">“Você cria o seu próprio caminho ao caminhar.”</div>
+    <div class="quote">“Coragem não é ausência de medo, é agir apesar dele.”</div>
+    <div class="quote">“Você nasceu para brilhar.”</div>
+    <div class="quote">“Dificuldades preparam pessoas comuns para destinos extraordinários.”</div>
+    <div class="quote">“Tudo o que você precisa já está dentro de você.”</div>
+    <div class="quote">“Cada pequena ação conta — continue.”</div>
+    <div class="quote">“Faça com paixão ou não faça.”</div>
+  </div>
+
+  <footer>© 2025 MindSpark. Energize sua mente ✨</footer>
+
+</body>
+</html>
